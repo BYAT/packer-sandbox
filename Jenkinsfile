@@ -21,8 +21,8 @@ spec:
     CREDS = credentials('bashayr_aws_creds')
     AWS_ACCESS_KEY_ID = "${CREDS_USR}"
     AWS_SECRET_ACCESS_KEY = "${CREDS_PSW}"
-    OWNER = 'bashayr'
-    PROJECT_NAME = 'web-server'
+    OWNER = 'delta'
+    PROJECT_NAME = 'web-app'
   }
   stages {
       stage("build") {
